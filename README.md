@@ -37,10 +37,10 @@
 * Reference: https://www.youtube.com/watch?v=79eXGJ2rKZs
 
 ## Junit Annotations
-* @BeforeClass – Run once before any of the test methods in the class, public static void
-* @AfterClass – Run once after all the tests in the class have been run, public static void
-* @Before – Run before @Test, public void {every method}
-* @After – Run after @Test, public void {every method}
+* @BeforeClass – Run just once before any of the test methods in the class, public static void
+* @AfterClass – Run just once after all the tests completion in the class, public static void
+* @Before – Run before each @Test, public void {each method}
+* @After – Run after each @Test, public void {each method}
 * @Ignore - to ignore this test case
 * @Test – This is the test method to run, public void
 * JUnit Assert Class

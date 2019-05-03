@@ -10,7 +10,7 @@
 
 ## Mockito limitations/Solution
 * Mokito has its own major limitations like we cannot test Static methods
-* Using PowerMock with Mockito will solve limitations of Mokito
+* Using PowerMock with Mockito will solve limitations of Mokito, even testing of Static methods is possible
 * Mokito is a kind of subset to PowerMock
   
   
